@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+}
+
+.navbar {
+    width: 15%; /* Adjust the width of the navbar */
+    background-color: #344955; /* Deep teal for a modern look */
+    color: #ffffff; /* White text for contrast */
+    border-right: 1px solid #232f34; /* Slightly darker border for subtle separation */
+    padding: 15px; /* Add some padding for better spacing */
+    font-family: Arial, sans-serif; /* Clean font for the navbar */
+}
+
+.content {
+    flex: 1; /* Take up the remaining space */
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+}
+
+.header {
+    background-color: #4a6572; /* Cool grey-blue for the header */
+    color: #ffffff; /* White text for better readability */
+    text-align: center; /* Center-align the text */
+    padding: 15px 0; /* Add padding for better spacing */
+    font-size: 26px; /* Increase font size for a bolder header */
+    font-weight: bold; /* Make the text bold */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font for the header */
+}
+
+.content-top {
+    flex: 1; /* Top section takes half the height */
+    background-color: #f6f7f9; /* Light grey for a clean, minimalistic look */
+    color: #344955; /* Dark text for readability */
+    display: flex; /* Add flex for layout adjustments */
+    justify-content: center; /* Center-align content horizontally */
+    align-items: center; /* Center-align content vertically */
+    font-family: 'Roboto', sans-serif; /* Professional font for content */
+}
+
+.content-bottom {
+    flex: 1; /* Bottom section takes half the height */
+    background-color: #f6f7f9; /* White background for a clean, modern appearance */
+    color: #344955; /* Consistent text color for better branding */
+    display: flex; /* Add flex for layout adjustments */
+    justify-content: center; /* Center-align content horizontally */
+    align-items: center; /* Center-align content vertically */
+    font-family: 'Roboto', sans-serif; /* Professional font for content */
+}
+
+/* Optional hover effects for navbar links (if applicable) */
+.navbar a {
+    color: #ffffff; /* White text for links */
+    text-decoration: none; /* Remove underline */
+    display: block;
+    padding: 10px 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #4a6572; /* Slightly lighter background for hover effect */
+    color: #ffffff; /* Keep text white */
+}
+
+.mf2 {
+  text-align: center;
+  font-size: 16px;
+  color: #344955; /* Match the overall app's color scheme */
+  padding: 10px;
+}
